@@ -18,6 +18,13 @@
   },
   "homepage": "https://github.com/Ridvan-bot/templet#readme",
   "dependencies": {
-    "typescript": "^5.6.3"
+    "@types/node": "^22.5.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.0",
+    "semantic-release": "^24.2.0"
   }
 }
