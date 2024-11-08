@@ -15,7 +15,7 @@ on:
 jobs:
   # Early exit job to complete workflow if branches is not "main"
   No-release:
-    if: ${{ inputs.branches != 'dev' }}
+    if: ${{ inputs.branches != 'main' }}
     runs-on: ubuntu-latest
     steps:
       - name: No release
@@ -23,8 +23,8 @@ jobs:
 
   # Execute semantic release only if branches is "main"
   execute-semantic-release:
-    if: ${{ inputs.branches == 'dev' }}
-    uses: Ridvan-bot/workflows/.github/workflows/semantic-release.yml@dev
+    if: ${{ inputs.branches == 'main' }}
+    uses: Ridvan-bot/workflows/.github/workflows/semantic-release.yml@main
     with:
       branches: "${{ inputs.branches }}"
       repo_path: "${{ inputs.repo_path }}"
