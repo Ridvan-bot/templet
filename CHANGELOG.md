@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/Ridvan-bot/templet/compare/v1.0.0...v1.0.1) (2024-11-08)
+
+### Bug Fixes
+
+* this should be a doc, but I'm testing fix release ([7d56d58](https://github.com/Ridvan-bot/templet/commit/7d56d585c567d8ec664a166ff7d00bfed48a2de2))
+
 ## 1.0.0 (2024-11-08)
 
 ### Bug Fixes
