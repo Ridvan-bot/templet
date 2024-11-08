@@ -48,8 +48,5 @@ Thumbs.db
 # Mac-specific files
 *.DS_Store
 
-# Lockfiles (optional)
-# Uncomment these if you prefer not to commit lockfiles
-# package-lock.json
-# yarn.lock
-# pnpm-lock.yaml
+package-lock.json
+
