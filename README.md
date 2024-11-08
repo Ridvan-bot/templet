@@ -1,2 +1,2 @@
 # templet
-This is a Templet repo to duplicate
+This is a Templet repo to duplicate.
