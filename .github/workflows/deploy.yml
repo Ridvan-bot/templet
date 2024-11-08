@@ -7,7 +7,7 @@ on:
       - main
 jobs:
   execute-code-quality-validation:
-    uses: Ridvan-bot/website/.github/workflows/validate.yml@main
+    uses: ./.github/workflows/validate.yml@main
     with:
       eslint-enable: true
     secrets:
@@ -15,7 +15,7 @@ jobs:
 
   execute-release:
     needs: execute-code-quality-validation
-    uses: Ridvan-bot/website/.github/workflows/release.yml@main
+    uses: ./.github/workflows/release.yml@main
     with:
       branches: "${{ github.ref_name }}"
     secrets:
