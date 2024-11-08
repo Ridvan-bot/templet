@@ -9,6 +9,7 @@ on:
       repo_path:
         required: false
         type: string
+        default: ''
     secrets:
       token:
         required: true
