@@ -26,7 +26,7 @@ jobs:
     if: ${{ inputs.branches == 'dev' }}
     uses: Ridvan-bot/workflows/.github/workflows/semantic-release.yml@dev
     with:
-      branches: "${{ github.ref_name }}"
+      branches: "${{ inputs.branches }}"
       repo_path: "${{ inputs.repo_path }}"
     secrets:
       token: ${{ secrets.GH_TOKEN }}  # Pass the GH_TOKEN as 'token' to release.yml
