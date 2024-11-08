@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/Ridvan-bot/templet/compare/v1.1.0...v1.1.1) (2024-11-08)
+
+### Bug Fixes
+
+* update .gitignore ([3af5577](https://github.com/Ridvan-bot/templet/commit/3af557752bcf309303c18655a61e1ed509f0ba6b))
+
 ## [1.1.0](https://github.com/Ridvan-bot/templet/compare/v1.0.1...v1.1.0) (2024-11-08)
 
 ## [1.0.1](https://github.com/Ridvan-bot/templet/compare/v1.0.0...v1.0.1) (2024-11-08)
