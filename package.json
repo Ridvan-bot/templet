@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Ridvan-bot/templet#readme",
   "dependencies": {
     "@types/node": "^22.5.0",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
