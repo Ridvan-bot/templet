@@ -15,8 +15,8 @@ on:
 jobs:
   # Execute semantic release only if branches is "main"
   execute-semantic-release:
-    if: ${{ inputs.branches == 'main' }}
-    uses: Ridvan-bot/workflows/.github/workflows/semantic-release.yml@main
+    if: ${{ inputs.branches == 'dev' }}
+    uses: Ridvan-bot/workflows/.github/workflows/semantic-release.yml@dev
     with:
       branches: "${{ github.ref_name }}"
       repo_path: "${{ inputs.repo_path }}"
