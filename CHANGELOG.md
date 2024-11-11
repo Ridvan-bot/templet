@@ -1,3 +1,9 @@
+## [1.1.2](https://github.com/Ridvan-bot/templet/compare/v1.1.1...v1.1.2) (2024-11-11)
+
+### Bug Fixes
+
+* update readme, use fix to trigger release ([610aeba](https://github.com/Ridvan-bot/templet/commit/610aeba1844b5ee2683eb5de23547934558d3475))
+
 ## [1.1.1](https://github.com/Ridvan-bot/templet/compare/v1.1.0...v1.1.1) (2024-11-08)
 
 ### Bug Fixes
