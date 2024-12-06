@@ -73,3 +73,6 @@ This project is licensed under the ISC License. Feel free to modify and use it i
 Repository: GitHub
 Issues: Submit Issues
 Homepage: Project Homepage
+
+##
+Crafted with care by **Robin Pohlman** at **Pohlman Protean AB**.
