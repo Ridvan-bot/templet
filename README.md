@@ -1,5 +1,11 @@
 # Template Repository
 
+![Build Status](https://github.com/Ridvan-bot/pohlmanprotean.se/actions/workflows/deploy.yml/badge.svg)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/Ridvan-bot/templet?label=version&sort=semver)
+![Last Commit](https://img.shields.io/github/last-commit/Ridvan-bot/templet)
+![GitHub issues](https://img.shields.io/github/issues/Ridvan-bot/templet)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Ridvan-bot/templet)
+
 ## Overview
 This repository serves as a template for quickly duplicating workflows and configurations into other projects. The goal is to streamline your development process by providing a pre-configured set of tools, workflows, and settings that can be copied into new repositories.
 
@@ -75,4 +81,6 @@ Issues: Submit Issues
 Homepage: Project Homepage
 
 ##
-Crafted with care by **Robin Pohlman** at **Pohlman Protean AB**.
+<p align="center">
+  Crafted with care by <strong>Robin Pohlman</strong> at <strong>Pohlman Protean AB</strong>.
+</p>
